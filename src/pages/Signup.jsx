@@ -83,7 +83,7 @@ const Signup = () => {
   const [isConPw, setIsConPw] = useState(false);
   const [isName, setIsName] = useState(false);
   const [isMail, setIsMail] = useState(false);
-  // 팝업
+  // 팝업!
   const [modalOpen, setModalOpen] = useState(false);
   const [modalText, setModalText] = useState("중복된 아이디 입니다.");
 
