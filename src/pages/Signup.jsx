@@ -85,7 +85,7 @@ const Signup = () => {
   const [isMail, setIsMail] = useState(false);
   // 팝업
   const [modalOpen, setModalOpen] = useState(false);
-  const [modalText, setModelText] = useState("중복된 아이디 입니다.");
+  const [modalText, setModalText] = useState("중복된 아이디 입니다.");
 
   const closeModal = () => {
     setModalOpen(false);
@@ -154,12 +154,12 @@ const Signup = () => {
         navigate("/");
       } else {
         setModalOpen(true);
-        setModelText("회원 가입에 실패 했습니다.");
+        setModalText("회원 가입에 실패 했습니다.");
       }
     } else {
       console.log("이미 가입된 회원 입니다.");
       setModalOpen(true);
-      setModelText("이미 가입된 회원 입니다.");
+      setModalText("이미 가입된 회원 입니다.");
     }
   };
 
